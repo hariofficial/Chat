@@ -1,0 +1,35 @@
+main{
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 1px 40px 10px silver;
+    transition: box-shadow ease-out 5s;
+    section{
+
+        div{
+            padding-top: 70px;
+
+            form{
+
+                legend{
+                    font-size: x-large;
+                }
+
+                label #male{
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width:1024px){
+    main{
+        margin-top: 150px;
+        margin-left: 450px;
+    }
+}
+@media only screen and (min-width:1440px){
+    main{
+        margin-top: 300px;
+        margin-left: 750px;
+    }
+}
