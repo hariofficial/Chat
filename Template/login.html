@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'Sass/login.css' %}">
+    <link rel="stylesheet" href="{% static 'Sass/login.css.map' %}">
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <div align="center">
+          <form action="home.html" autocomplete="off">
+            <legend>Sign in</legend><br>
+            <input width="200px" height="15px" name="text" type="text" placeholder="Phone Number or Mail ID"
+              pattern="[0-9]{10}|[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>
+            <input type="password" width="200px" height="15px" placeholder="Password" required><br><br>
+            <input type="submit" width="100px" height="25px" value="Sign in" id="btn">
+            <p>New user? <a href="register.html" target="_self">Sign up</a></p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+
+</html>

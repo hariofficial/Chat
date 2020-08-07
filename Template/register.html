@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static 'Sass/reg.css' %}">
+        <link rel="stylesheet" href="{% static 'Sass/reg.css.map' %}">
+    </head>
+
+    <body>
+        <main>
+            <section>
+                <div align="center">
+                    <form action="login.html" autocomplete="off">
+                        <legend>Create an account</legend><br>
+                        <input type="text" name="username" placeholder="Full name" pattern="[A-za-Z]" width="200px"
+                            height="15px" required><br><br>
+                        <input type="email" name="email" placeholder="Mail ID" width="200px" height="15px"
+                            required><br><br>
+                        <input type="tel" name="phone" placeholder="Phone number" pattern="[0-9]{10}" width="200px"
+                            height="15px" required><br><br>
+                        <input type="password" name="password" placeholder="Password" width="200px" height="15px"
+                            required><br><br>
+                        <input type="submit" width="100px" height="25px" value="Sign up">
+                    </form>
+                </div>
+            </section>
+        </main>
+    </body>
+
+</html>
