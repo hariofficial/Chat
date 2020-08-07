@@ -5,8 +5,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="{% static 'Sass/home.css' %}">
-        <link rel="stylesheet" href="{% static 'Sass/home.css.map' %}">
+        <link rel="stylesheet" href="{% static 'home.css' %}">
+        <link rel="stylesheet" href="{% static 'home.css.map' %}">
     </head>
 
     <body>
@@ -18,12 +18,23 @@
                 </a>
             </div>
         </header>
-        <nav align="center">
+        <nav>
             <div>
-                <a href="#Home" class="nav">Home</a>
-                <a href="#Feed" class="nav">Feed</a>
-                <a href="#Friends" class="nav">Friends</a>
-                <a href="#chat">Chat</a>
+                <ul>
+                    <li>
+                        <a href="#Home" class="nav">Home</a>
+                    </li>
+                    <li>
+                        <a href="#Feed" class="nav">Feed</a>
+                    </li>
+                    <li>
+                        <a href="#Friends" class="nav">Friends</a>
+                    </li>
+                    <li>
+                        <a href="#chat">Chat</a>
+                    </li>
+                    <li><a href="#settings">Settings</a></li>
+                </ul>
             </div>
         </nav>
     </body>

@@ -1,8 +1,8 @@
 main {
   width: 400px;
   height: 400px;
-  -webkit-box-shadow: 1px 1px 40px 10px silver;
-          box-shadow: 1px 1px 40px 10px silver;
+  -webkit-box-shadow: 1px 1px 10px 5px purple;
+          box-shadow: 1px 1px 10px 5px purple;
   -webkit-transition: -webkit-box-shadow ease-out 5s;
   transition: -webkit-box-shadow ease-out 5s;
   transition: box-shadow ease-out 5s;
