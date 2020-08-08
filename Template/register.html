@@ -13,7 +13,8 @@
         <main>
             <section>
                 <div align="center">
-                    <form action="login.html" autocomplete="off">
+                    <form action="register.html" method="POST">
+                        {% csrf_token %}
                         <legend>Create an account</legend><br>
                         <input type="text" name="username" placeholder="Full name" pattern="[A-za-Z]" width="200px"
                             height="15px" required><br><br>

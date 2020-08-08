@@ -12,9 +12,9 @@ def register(request):
         username = request.POST['username']
         email = request.POST['email']
         password = request.POST['password']
-        phone_num = request.POST['phone']
+        #phone_num = request.POST['phone']
 
-        user = User.objects.create_user(username=username, password=password,email=email,phone_num=phone_num)
+        user = User.objects.create_user(username=username, password=password, email=email)#,phone_num=phone_num)
         user.save()
         print('user created')
         return redirect('login')
